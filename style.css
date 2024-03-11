@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: skyblue;
+    padding: 1rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+    width: 50rem;
+    margin: auto;
+}
+
+.small{
+    width: 10rem;
+}
+
+.big{
+    width: 30rem;
+    text-align: center;
+}
+
+.small.right{
+    text-align: right;
+}
+
+section > div {
+    border: 2px dotted black;
+}
+
